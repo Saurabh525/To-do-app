@@ -14,8 +14,8 @@
     "@ui5/cli": "^4.0.16"
   },
   "scripts": {
-    "start": " fiori run --open \"index.html?sap-ui-xx-viewCache=false\"",
-    "build": "ui5 build --config=ui5.yaml --clean-dest --dest dist",
+    "start": "ui5 serve --open",
+    "build": "ui5 build --all",
     "deploy": "fiori verify",
     "deploy-config": "fiori add deploy-config",
     "start-variants-management": "fiori run --open \"preview.html?sap-ui-xx-viewCache=false&fiori-tools-rta-mode=true&sap-ui-rta-skip-flex-validation=true#preview-app\"",
